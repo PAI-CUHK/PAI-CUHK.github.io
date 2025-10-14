@@ -10,33 +10,30 @@ last_name: Fan
 superuser: true
 
 # Role/position
-role: Principle Investigator
+role: Vice-Chancellor Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: CUHK
-    url: 'https://www.cuhk.edu.hk'
+  - name: Deaprtment of Psychiatry, CUHK
+    url: 'https://www.psychiatry.cuhk.edu.hk/tc/members/dr-lizhou-fanvice-chancellor-assistant-professor-non-clinical/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include artificial intelligence, machine learning, and probabilistic modeling.
+bio: My research interests include artificial intelligence, neuropsychiatric disorders, digital mental health, and health informatics.
 
-# interests:
-#   - Artificial Intelligence
-#   - Machine Learning
-#   - Probabilistic Modeling
-#   - Natural Language Processing
+interests:
+  - Artificial intelligence
+  - Neuropsychiatric disorders
+  - Digital mental health
+  - Health informatics
 
-# education:
-#   courses:
-#     - course: PhD in Artificial Intelligence
-#       institution: Stanford University
-#       year: 2012
-#     - course: MEng in Artificial Intelligence
-#       institution: Massachusetts Institute of Technology
-#       year: 2009
-#     - course: BSc in Artificial Intelligence
-#       institution: Massachusetts Institute of Technology
-#       year: 2008
+education:
+  courses:
+    - course: PhD in Information
+      institution: University of Michigan
+      year: 2024
+    - course: BSc in Statistics
+      institution: University of California, Los Angeles
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -59,7 +56,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'lizhou.fan@cuhk.edu.hk'
+email: 'leofan@cuhk.edu.hk'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -69,6 +66,4 @@ user_groups:
   - Principle Investigator
 ---
 
-I am a Vice-Chancellor Assistant Professor at The Chinese University of Hong Kong (CUHK), Department of Psychiatry. Previously, I was a postdoctoral research fellow at Harvard-MGB's AI in Medicine Program. Before that, I received a PhD in Information from University of Michigan, School of Information (UMSI) and a BS in Statistics from University of California, Los Angeles (UCLA).
-
-As part of the Department of Psychiatry, Faculty of Medicine at CUHK, my research is dedicated to advancing Medical Artificial Intelligence and Health Informatics, with a focus on Digital Mental Health and AI-driven Psychiatry. I am committed to fostering interdisciplinary collaborations between the AI community and medical and healthcare professionals.
+I am a Vice-Chancellor Assistant Professor in the Department of Psychiatry, CUHK. As the principal investigator of Psychiatry and AI (PAI) Research Group, my cross-disciplinary research integrates artificial intelligence with neuropsychiatry to advance mental health science and care, while also extending to domain-free medical AI, health informatics, social computing, and AI-for-science.
