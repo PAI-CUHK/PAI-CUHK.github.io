@@ -45,12 +45,19 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© CUHK PAI RESEARCH GROUP'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  show_powered_by: false
+  power_by: false
+  powered_by: false
+
+# Theme settings
+show_powered_by: false
+powered_by: false
 
 # Localization
 

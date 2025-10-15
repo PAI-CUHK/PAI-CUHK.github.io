@@ -8,32 +8,54 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: Welcome to The CUHK Psychiatry & AI (PAI) Research Group
+        content: Connecting Minds, Shaping Futures——Pioneering Digital Mental Wellness through Innovative Algorithms.
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: cu1.png
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Research News
+        content: 'Explore our latest research achievements!'
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: news.png
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+        link:
+          icon: file-alt
+          icon_pack: fas
+          text: Explore
+          url: ../post/
+
+      - title: Activities & Events
+        content: 'Discover our conference participations, academic activities, and lab milestones!'
+        align: left
+        background:
+          image:
+            filename: event.png
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+        link:
+          icon: calendar-alt
+          icon_pack: fas
+          text: View Activities
+          url: ../event/
+
+      - title: Collaborate & Co-create with Us
+        content: 'We welcome inquiries from motivated collaborators.'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: joinus.png
             filters:
               brightness: 0.5
           position: center
@@ -41,7 +63,7 @@ sections:
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: Join Us
+          text: Contact
           url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
