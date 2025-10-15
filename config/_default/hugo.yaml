@@ -15,6 +15,11 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+# Completely disable Google Analytics to prevent template errors
+params:
+  analytics:
+    enable: false
+
 # services:
 #   googleAnalytics:
 #     id: ''
