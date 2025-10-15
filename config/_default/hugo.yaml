@@ -15,6 +15,10 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+services:
+  googleAnalytics:
+    id: ""  # 设为空字符串
+
 ############################
 ## ADVANCED
 ############################
