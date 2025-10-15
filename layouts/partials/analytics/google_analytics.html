@@ -1,0 +1,11 @@
+{{- $ga := or .Site.Params.marketing.analytics.google_analytics .Site.Params.analytics.google.tagID .Site.Params.googleAnalytics -}}
+{{- with $ga -}}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{- end -}}
