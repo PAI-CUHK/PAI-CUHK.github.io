@@ -1,6 +1,6 @@
 ---
 title: "🏆 Our Team Wins Best Paper Award for Enhancing Medical Diagnostic Reasoning with Chain-of-Thought in Large Language Models"
-date: 2025
+date: 2025-01-01
 tags: ["Chain-of-Thought", "Large Language Models", "Medical Diagnosis", "Clinical Reasoning", "GPT-4", "MedQA", "Diagnostic Accuracy", "AI Healthcare"]
 image:
   focal_point: 'top'
