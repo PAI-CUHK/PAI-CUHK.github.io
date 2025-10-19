@@ -6,13 +6,13 @@ title: Wenkong Wang
 first_name: Wenkong
 last_name: Wang
 
-# Role/position
-role: Affiliated Researcher
+# # Role/position
+# role: Affiliated Researcher
 
-# Organizations/Affiliations
-organizations:
-  - name: CUHK
-    url: ''
+# # Organizations/Affiliations
+# organizations:
+#   - name: CUHK
+#     url: ''
 
 # Social/Academic Networking
 social:
@@ -30,3 +30,5 @@ highlight_name: false
 user_groups:
   - Affiliated Researchers
 ---
+
+PhD Student @ SDU

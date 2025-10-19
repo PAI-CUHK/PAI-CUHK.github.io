@@ -7,7 +7,7 @@ first_name: Xinxin
 last_name: Lin
 
 # Role/position
-role: Research Assistant
+# role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
@@ -30,3 +30,5 @@ highlight_name: false
 user_groups:
   - Research Assistants
 ---
+
+BEng @ HKUST

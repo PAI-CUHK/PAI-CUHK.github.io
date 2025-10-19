@@ -6,13 +6,13 @@ title: Jiahui Niu
 first_name: Jiahui
 last_name: Niu
 
-# Role/position
-role: Affiliated Researcher
+# # Role/position
+# role: Affiliated Researcher
 
-# Organizations/Affiliations
-organizations:
-  - name: CUHK
-    url: ''
+# # Organizations/Affiliations
+# organizations:
+#   - name: CUHK
+#     url: ''
 
 # Social/Academic Networking
 social:
@@ -30,3 +30,5 @@ highlight_name: false
 user_groups:
   - Affiliated Researchers
 ---
+
+PhD Student @ SDU

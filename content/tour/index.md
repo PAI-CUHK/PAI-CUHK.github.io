@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: cu1.png
+            filename: intro.png
             filters:
               brightness: 0.7
           position: right

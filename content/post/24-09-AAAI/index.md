@@ -1,12 +1,12 @@
 ---
-title: "AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow"
+title: "🧑🏽‍⚕️ [NEW PREPRINT] AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow"
 date: 2024-09-27
 tags: ["Simulated Patient", "Large Language Models", "Electronic Health Records", "Multi-agent Systems", "Retrieval Augmented Generation", "Medical QA", "Knowledge Graph"]
 image:
   focal_point: 'top'
 ---
 
-We present AIPatient, a novel framework that enhances medical education and research through an advanced simulated patient system built upon Electronic Health Records (EHRs) and powered by Large Language Models (LLMs).
+🎉 We present AIPatient, a novel framework that enhances medical education and research through an advanced simulated patient system built upon Electronic Health Records (EHRs) and powered by Large Language Models (LLMs).
 
 **Paper**: [arXiv:2409.18924](https://arxiv.org/pdf/2409.18924)
 

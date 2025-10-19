@@ -4,7 +4,7 @@ title: "NICE强化学习前沿理论与落地经验分享论坛"
 summary: Invited to attend NICE's inaugural offline forum on reinforcement learning frontiers, sharing insights on scalable agentic RL approaches.
 
 abstract: >
-   I'm honored to be invited as a speaker at NICE's first offline sharing forum focused on reinforcement learning frontiers. This event brings together leading researchers and practitioners in RL, LLMs, Agents, and embodied AI to explore the integration of theory, frameworks, and real-world applications. As a speaker from The Chinese University of Hong Kong, I will share insights on scalable agentic RL approaches and contribute to discussions on LLM-oriented reinforcement learning and trustworthy Vision-Language-Action frameworks. The forum will feature distinguished speakers from top institutions including Tsinghua, Peking University, CAS, and leading tech companies.Reinforcement Learning Frontier Theory and Deployment Experience Forum
+   I’m honored to be invited as a panellist at NICE’s first offline sharing forum focused on reinforcement learning frontiers. This event brings together leading researchers and practitioners in RL, LLMs, Agents, and embodied AI to explore the integration of theory, frameworks, and real-world applications. As a speaker from The Chinese University of Hong Kong, I will share insights on scalable agentic RL approaches and contribute to discussions on LLM-oriented reinforcement learning and trustworthy Vision-Language-Action frameworks. The forum will feature distinguished speakers from top institutions including Tsinghua, Peking University, CAS, and leading tech companies.Reinforcement Learning Frontier Theory and Deployment Experience Forum
 
 date: '2025-10-18T13:00:00Z'
 date_end: '2025-10-18T18:40:00Z'

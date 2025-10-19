@@ -7,7 +7,7 @@ first_name: Bingyi
 last_name: Chen
 
 # Role/position
-role: Research Assistant
+# role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
@@ -30,3 +30,5 @@ highlight_name: false
 user_groups:
   - Research Assistants
 ---
+
+MSc Student @ CUHK
