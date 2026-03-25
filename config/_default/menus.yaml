@@ -7,6 +7,10 @@ main:
   - name: Tour
     url: tour
     weight: 10
+  - name: KTPIF-ASD
+    url: ktpif-asd
+    weight: 15
+
   - name: News
     url: post
     weight: 20
