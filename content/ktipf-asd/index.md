@@ -375,7 +375,7 @@ sections:
         <p style="font-weight: 600; color: #4c1d95; margin-bottom: 1rem;">Transforming Pediatric Autism Spectrum Disorders Healthcare with AI-powered Home Monitoring and Patient Navigation</p>
         <p style="font-size: 1.1rem; font-weight: 600; color: #6d28d9; margin-bottom: 1.5rem;">以AI驅動的家庭監測和患者導引系統重塑兒童自閉症譜系障礙的醫療服務</p>
         
-        <div class="med-hero-img fade-in-up" style="animation-delay: 0.2s; margin-bottom: 2rem;">
+        <div class="med-hero-img fade-in-up" style="animation-delay: 0.3s; margin-bottom: 2rem;">
         <img src="image3.jpg" alt="SpectraHomeHelper AI Healthcare Vision Dashboard">
         </div>
 
@@ -499,9 +499,8 @@ sections:
 
         <div class="mt-8 pt-8" style="margin-top: 6rem; padding-top: 4rem; border-top: 1px solid #e2e8f0;">
         <h3 class="text-center" style="font-size: 1.5rem; color: #4c1d95; margin-bottom: 1.5rem;">Collaborators</h3>
-        <p class="text-center" style="max-width: 800px; margin: 0 auto; color: #475569;">
-        HATCH Foundation (Hong Kong), Shandong University Qilu Hospital Cohort, ASD NGOs, and School services.<br>
-        <span style="font-size: 0.95rem;">香港陳廷驊基金會兒童醫學創科中心（Hub of Advanced Technology for Child Health, HATCH Foundation）、山東大學齊魯醫院、自閉症相關非政府機構（NGOs）及高校服務機構。</span>
+        <p class="text-center" style="max-width: 1200px; margin: 0 auto; color: #475569;">HATCH Cohort (The D.H. Chen Foundation Hub of Advanced Technology for Child Health), Shandong University Qilu Hospital Cohort, ASD NGOs, and University services.<br>
+        <span style="font-size: 0.95rem;">香港中文大学陳廷驊基金會兒童醫學創科中心、山東大學齊魯醫院、自閉症相關非政府机构及高校服務機構等。</span>
         </p>
 
         <!-- Infinite Scrolling Collaborator Logos -->
@@ -510,6 +509,7 @@ sections:
             <!-- First Set -->
             <img class="med-collaborators-logo" src="collaborators/CUHK.png" alt="The Chinese University of Hong Kong">
             <img class="med-collaborators-logo" src="collaborators/medical_CUHK.png" alt="Faculty of Medicine, CUHK">
+            <img class="med-collaborators-logo" src="collaborators/cuhk_hatch.png" alt="Faculty of Medicine, CUHK">
             <img class="med-collaborators-logo" src="collaborators/HATCH.png" alt="HATCH Foundation">
             <img class="med-collaborators-logo" src="collaborators/NGO.png" alt="NGO Partners">
             <img class="med-collaborators-logo" src="collaborators/齐鲁医院.png" alt="Qilu Hospital of Shandong University">
