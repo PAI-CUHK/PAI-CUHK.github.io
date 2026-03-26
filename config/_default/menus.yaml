@@ -7,8 +7,8 @@ main:
   - name: Tour
     url: tour
     weight: 10
-  - name: KTPIF-ASD
-    url: ktpif-asd
+  - name: KTIPF-ASD
+    url: ktipf-asd
     weight: 15
 
   - name: News
