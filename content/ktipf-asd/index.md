@@ -312,10 +312,13 @@ sections:
               text-align: center;
               gap: 2.5rem;
             }
-            .med-hero-text h1 { font-size: 2.5rem; }
+            .med-hero-text h1 { font-size: 2.25rem; }
             .btn-group { justify-content: center; }
             .med-feature-text li { text-align: left; }
             .med-stats-grid { grid-template-columns: 1fr; gap: 3rem; }
+          }
+          @media (max-width: 600px) {
+            .med-hero-text h1 { font-size: 1.75rem; }
           }
         </style>
 
