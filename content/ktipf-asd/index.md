@@ -320,6 +320,48 @@ sections:
           @media (max-width: 600px) {
             .med-hero-text h1 { font-size: 1.75rem; }
           }
+
+          /* Collaborators Marquee */
+          .med-collaborators-marquee {
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            margin-top: 3rem;
+            padding: 1rem 0;
+            -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+            mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+          }
+          .med-collaborators-track {
+            display: inline-flex;
+            align-items: center;
+            gap: 5rem;
+            animation: marquee 25s linear infinite;
+          }
+          .med-collaborators-track:hover {
+            animation-play-state: paused;
+          }
+          .med-collaborators-logo {
+            height: 70px;
+            width: auto;
+            max-width: 250px;
+            object-fit: contain;
+            transition: all 0.4s ease;
+          }
+          .med-collaborators-logo:hover {
+            transform: scale(1.05);
+          }
+          @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-50% - 2.5rem)); }
+          }
+          @media (max-width: 768px) {
+            .med-collaborators-logo { height: 50px; }
+            .med-collaborators-track { gap: 3rem; }
+            @keyframes marquee {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(calc(-50% - 1.5rem)); }
+            }
+          }
         </style>
 
         <div class="med-page">
@@ -361,7 +403,7 @@ sections:
         <div class="med-card-icon">
         <img src="icon/瓶颈.png" alt="Diagnostic Bottlenecks Icon" style="width: 24px; height: 24px; object-fit: contain;">
         </div>
-        <h3>Diagnostic Bottlenecks<br><span style="font-size: 1rem; color: #6d28d9;">診斷瓶頸</span></h3>
+        <h3>Prolonged Waits<br><span style="font-size: 1rem; color: #6d28d9;">診斷瓶頸</span></h3>
         <p>Specialist clinics face massive waitlists, leaving children waiting months or years for evaluation.<br>專科門診面臨巨大診斷瓶頸，導致候診名單極長，患兒往往需等待數月至數年才能確診。</p>
         </div>
         <!-- Card 2 -->
@@ -369,7 +411,7 @@ sections:
         <div class="med-card-icon">
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
         </div>
-        <h3>Inequitable Access<br><span style="font-size: 1rem; color: #6d28d9;">資源分布不均</span></h3>
+        <h3>Unequal Access<br><span style="font-size: 1rem; color: #6d28d9;">資源分布不均</span></h3>
         <p>Disproportionately impacts low-income and non-urban families, who struggle to afford frequent clinic visits and transport.<br>醫療資源獲取存在顯著不平等，低收入和非城市家庭難以承擔頻繁就診的交通與時間成本。</p>
         </div>
         <!-- Card 3 -->
@@ -392,7 +434,7 @@ sections:
         <!-- SOLUTION SHOWCASE -->
         <section id="solution" class="med-section med-container fade-in-up">
         <h2 class="med-section-title">The Solution</h2>
-        <p class="med-section-desc mb-8" style="max-width: 900px; margin-bottom: 5rem;">We propose a comprehensive solution combining AI-powered home monitoring with an LLM-based patient navigator.<br>我們提出了一套結合AI家庭監測與大語言模型患者導引系統的綜合解決方案。</p>
+        <p class="med-section-desc mb-8" style="max-width: 900px; margin-bottom: 5rem;">We propose a comprehensive solution combining AI-powered home monitoring with an LLM-based patient navigator.<br>我們致力於開發和驗證一套結合AI家庭監測與大語言模型患者導引系統的綜合解決方案。</p>
 
         <!-- Feature Block 1 -->
         <div class="med-feature">
@@ -401,7 +443,7 @@ sections:
         <h2>AI Home Monitor<br><span style="font-size: 1.5rem; color: #7c3aed;">家庭監測器</span></h2>
         <p>Uses a smartphone and depth camera to record structured parent-child block-play sessions at home.<br>利用智能手機和深度攝像頭在家中記錄結構化的親子積木遊戲。</p>
         <ul>
-        <li><strong>Privacy algorithms (端側算法):</strong> Extracts behavioral features safely while protecting family data.<br>通過保護隱私的端側算法安全提取行為特徵。</li>
+        <li><strong>Privacy-preserving algorithms (端側算法):</strong> Extracts behavioral features safely while protecting family data.<br>通過保護隱私的端側算法安全提取行為特徵。</li>
         <li><strong>Multimodal Foundation Model (MFM):</strong> Generates continuous clinical dashboards directly for clinicians.<br>利用多模態基礎模型生成連續的臨床評估儀表板供醫生參考。</li>
         <li><strong>Clinical Grade (臨床級):</strong> Brings assessment into the home setting.<br>將臨床評估直接融入日常家庭場景。</li>
         </ul>
@@ -459,8 +501,26 @@ sections:
         <h3 class="text-center" style="font-size: 1.5rem; color: #4c1d95; margin-bottom: 1.5rem;">Collaborators</h3>
         <p class="text-center" style="max-width: 800px; margin: 0 auto; color: #475569;">
         HATCH Foundation (Hong Kong), Shandong University Qilu Hospital Cohort, ASD NGOs, and School services.<br>
-        <span style="font-size: 0.95rem;">香港達仁祥慕基金會兒童醫學創科中心（HATCH Foundation）、山東大學齊魯醫院、自閉症相關非政府機構（NGOs）及學校服務機構。</span>
+        <span style="font-size: 0.95rem;">香港陳廷驊基金會兒童醫學創科中心（Hub of Advanced Technology for Child Health, HATCH Foundation）、山東大學齊魯醫院、自閉症相關非政府機構（NGOs）及高校服務機構。</span>
         </p>
+
+        <!-- Infinite Scrolling Collaborator Logos -->
+        <div class="med-collaborators-marquee">
+          <div class="med-collaborators-track">
+            <!-- First Set -->
+            <img class="med-collaborators-logo" src="collaborators/CUHK.png" alt="The Chinese University of Hong Kong">
+            <img class="med-collaborators-logo" src="collaborators/medical_CUHK.png" alt="Faculty of Medicine, CUHK">
+            <img class="med-collaborators-logo" src="collaborators/HATCH.png" alt="HATCH Foundation">
+            <img class="med-collaborators-logo" src="collaborators/NGO.png" alt="NGO Partners">
+            <img class="med-collaborators-logo" src="collaborators/齐鲁医院.png" alt="Qilu Hospital of Shandong University">
+            <!-- Duplicated Set for Infinite Loop -->
+            <img class="med-collaborators-logo" src="collaborators/CUHK.png" alt="The Chinese University of Hong Kong">
+            <img class="med-collaborators-logo" src="collaborators/medical_CUHK.png" alt="Faculty of Medicine, CUHK">
+            <img class="med-collaborators-logo" src="collaborators/HATCH.png" alt="HATCH Foundation">
+            <img class="med-collaborators-logo" src="collaborators/NGO.png" alt="NGO Partners">
+            <img class="med-collaborators-logo" src="collaborators/齐鲁医院.png" alt="Qilu Hospital of Shandong University">
+          </div>
+        </div>
         </div>
 
         <div class="text-center mb-8 pb-8" style="display: flex; justify-content: center; margin-top: 6rem;">
