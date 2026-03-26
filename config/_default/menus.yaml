@@ -5,21 +5,21 @@
 
 main:
   - name: Tour
-    url: tour
+    url: /tour/
     weight: 10
   - name: KTIPF-ASD
-    url: ktipf-asd
+    url: /ktipf-asd/
     weight: 15
 
   - name: News
-    url: post
+    url: /post/
     weight: 20
   - name: People
-    url: people
+    url: /people/
     weight: 30
   - name: Events
-    url: event
+    url: /event/
     weight: 40
   - name: Contact
-    url: contact
+    url: /contact/
     weight: 60
