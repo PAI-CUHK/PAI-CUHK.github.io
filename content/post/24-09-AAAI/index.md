@@ -1,14 +1,24 @@
 ---
-title: "🧑🏽‍⚕️ [NEW PREPRINT] AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow"
+title: "🧑🏽‍⚕️ [PUBLISHED] AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow"
 date: 2024-09-27
 tags: ["Simulated Patient", "Large Language Models", "Electronic Health Records", "Multi-agent Systems", "Retrieval Augmented Generation", "Medical QA", "Knowledge Graph"]
+share: false
 image:
   focal_point: 'top'
 ---
 
 🎉 We present AIPatient, a novel framework that enhances medical education and research through an advanced simulated patient system built upon Electronic Health Records (EHRs) and powered by Large Language Models (LLMs).
 
-**Paper**: [arXiv:2409.18924](https://arxiv.org/pdf/2409.18924)
+<br>
+
+<div class="d-flex flex-wrap" style="gap: 15px;">
+  <a href="https://huiziy.github.io/aipatient-overview/" target="_blank" class="btn btn-outline-primary btn-lg">
+    <i class="fas fa-globe mr-2"></i> Project Page
+  </a>
+  <a href="https://www.nature.com/articles/s43856-025-01283-x" target="_blank" class="btn btn-outline-primary btn-lg">
+    <i class="fas fa-file-alt mr-2"></i> Read Published Paper
+  </a>
+</div>
 
 ---
 
@@ -100,3 +110,22 @@ Future enhancements could include:
 ## Conclusion
 
 The AIPatient framework exemplifies a transformative approach to patient simulation through EHR data and LLM-powered interactions, emphasizing structured retrieval and knowledge dissemination in a manner conducive to enhancing medical training and decision-making processes. By embedding these systems within medical curricula and research protocols, we propose significant advancements in how interactions with simulated patients can impact educational outcomes and clinical preparedness.
+
+---
+
+## Welcome to Cite Our Article
+
+If you find our work helpful, please consider citing it:
+
+```text
+@ARTICLE{Yu2025-fm,
+  title     = "Simulated patient systems powered by large language model-based
+               {AI} agents offer potential for transforming medical education",
+  author    = "Yu, Huizi and Zhou, Jiayan and Li, Lingyao and Chen, Shan and
+               Gallifant, Jack and Shi, Anye and Sun, Jie and Li, Xiang and He,
+               Jingxian and Hua, Wenyue",
+  journal   = "Commun. Med. (Lond.)",
+  publisher = "Nature Publishing Group UK London",
+  year      =  2025
+}
+```

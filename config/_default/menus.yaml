@@ -7,6 +7,9 @@ main:
   - name: Tour
     url: /tour/
     weight: 10
+  - name: People
+    url: /people/
+    weight: 12
   - name: SpectraHomeHelper
     url: /spectrahomehelper/
     weight: 15
@@ -14,9 +17,6 @@ main:
   - name: News
     url: /post/
     weight: 20
-  - name: People
-    url: /people/
-    weight: 30
   - name: Events
     url: /event/
     weight: 40

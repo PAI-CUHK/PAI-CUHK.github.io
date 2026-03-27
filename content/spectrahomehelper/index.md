@@ -371,7 +371,8 @@ sections:
         <div class="med-container med-hero-content">
         <div class="med-hero-text fade-in-up">
         <span class="med-badge">KTIPF FUNDED INNOVATION</span>
-        <h1>SpectraHomeHelper</h1>
+        <h1 style="margin-bottom: 0.5rem;">SpectraHomeHelper</h1>
+        <h2 style="font-size: 2.25rem; font-weight: 700; color: #0f172a; margin-top: 0; margin-bottom: 3rem;">光譜智能居家幫手</h2>
         <p style="font-weight: 600; color: #4c1d95; margin-bottom: 1rem;">Transforming Pediatric Autism Spectrum Disorders Healthcare with AI-powered Home Monitoring and Patient Navigation</p>
         <p style="font-size: 1.1rem; font-weight: 600; color: #6d28d9; margin-bottom: 1.5rem;">以AI驅動的家庭監測和患者導引系統重塑兒童自閉症譜系障礙的醫療服務</p>
         

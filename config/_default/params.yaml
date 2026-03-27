@@ -46,7 +46,7 @@ header:
 
 footer:
   copyright:
-    notice: '© CUHK PAI RESEARCH GROUP'
+    notice: '© CUHK PAI RESEARCH GROUP, 2025-{year}'
     license:
       enable: false
       allow_derivatives: false
