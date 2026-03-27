@@ -166,7 +166,7 @@ sections:
             border-radius: 12px;
             padding: 2.5rem 2rem;
             text-align: left;
-            transition: all 0.3s ease;
+            transition: all 0.1s ease;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
           }
           .med-card:hover {
@@ -370,7 +370,7 @@ sections:
         <section class="med-hero">
         <div class="med-container med-hero-content">
         <div class="med-hero-text fade-in-up">
-        <span class="med-badge">KTIPF-ASD Funded Innovation</span>
+        <span class="med-badge">KTIPF FUNDED INNOVATION</span>
         <h1>SpectraHomeHelper</h1>
         <p style="font-weight: 600; color: #4c1d95; margin-bottom: 1rem;">Transforming Pediatric Autism Spectrum Disorders Healthcare with AI-powered Home Monitoring and Patient Navigation</p>
         <p style="font-size: 1.1rem; font-weight: 600; color: #6d28d9; margin-bottom: 1.5rem;">以AI驅動的家庭監測和患者導引系統重塑兒童自閉症譜系障礙的醫療服務</p>
@@ -510,8 +510,8 @@ sections:
             <img class="med-collaborators-logo" src="collaborators/CUHK.png" alt="The Chinese University of Hong Kong">
             <img class="med-collaborators-logo" src="collaborators/medical_CUHK.png" alt="Faculty of Medicine, CUHK">
             <img class="med-collaborators-logo" src="collaborators/cuhk_hatch.png" alt="Faculty of Medicine, CUHK">
-            <img class="med-collaborators-logo" src="collaborators/HATCH.png" alt="HATCH Foundation">
-            <img class="med-collaborators-logo" src="collaborators/NGO.png" alt="NGO Partners">
+            <!-- <img class="med-collaborators-logo" src="collaborators/HATCH.png" alt="HATCH Foundation"> -->
+            <!-- <img class="med-collaborators-logo" src="collaborators/NGO.png" alt="NGO Partners"> -->
             <img class="med-collaborators-logo" src="collaborators/齐鲁医院.png" alt="Qilu Hospital of Shandong University">
             <!-- Duplicated Set for Infinite Loop -->
             <img class="med-collaborators-logo" src="collaborators/CUHK.png" alt="The Chinese University of Hong Kong">

@@ -7,8 +7,8 @@ main:
   - name: Tour
     url: /tour/
     weight: 10
-  - name: KTIPF-ASD
-    url: /ktipf-asd/
+  - name: SpectraHomeHelper
+    url: /spectrahomehelper/
     weight: 15
 
   - name: News
