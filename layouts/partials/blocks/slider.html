@@ -46,7 +46,7 @@
         {{ $bg_img = $page.Resources.GetMatch $bg.image.filename | default (resources.Get (printf "media/%s" $bg.image.filename)) }}
       {{ end }}
       {{ if $bg_img }}
-        {{ $style_bg = printf "%sbackground-image: url('%s'); background-repeat: no-repeat; background-position: %s; background-size: %s; " $style_bg $bg_img.Permalink ($bg.image.position | default "center") ($bg.image.size | default "cover") }}
+        {{ $style_bg = printf "%sbackground-image: url('%s'); background-repeat: no-repeat; background-position: %s; background-size: %s; " $style_bg $bg_img.RelPermalink ($bg.image.position | default "center") ($bg.image.size | default "cover") }}
       {{ else }}
         {{ errorf "Couldn't find `%s` in the `assets/media/` folder - please add it." $bg.image.filename }}
       {{ end }}
