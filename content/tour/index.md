@@ -32,7 +32,7 @@ sections:
           icon: file-alt
           icon_pack: fas
           text: Explore
-          url: ../post/
+          url: /post/
 
       - title: Activities & Events
         content: 'Discover our conference participations, academic activities, and lab milestones!'
@@ -48,7 +48,7 @@ sections:
           icon: calendar-alt
           icon_pack: fas
           text: View Activities
-          url: ../event/
+          url: /event/
 
       - title: Collaborate & Co-create with Us
         content: 'We welcome inquiries from motivated collaborators.'
@@ -64,7 +64,7 @@ sections:
           icon: graduation-cap
           icon_pack: fas
           text: Contact
-          url: ../contact/
+          url: /contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
