@@ -118,14 +118,24 @@ The AIPatient framework exemplifies a transformative approach to patient simulat
 If you find our work helpful, please consider citing it:
 
 ```text
-@ARTICLE{Yu2025-fm,
+@ARTICLE{Yu2025-tb,
   title     = "Simulated patient systems powered by large language model-based
                {AI} agents offer potential for transforming medical education",
   author    = "Yu, Huizi and Zhou, Jiayan and Li, Lingyao and Chen, Shan and
                Gallifant, Jack and Shi, Anye and Sun, Jie and Li, Xiang and He,
-               Jingxian and Hua, Wenyue",
+               Jingxian and Hua, Wenyue and Jin, Mingyu and Chen, Guang and
+               Zhou, Yang and Li, Zhao and Gupte, Trisha and Chen, Ming-Li and
+               Azizi, Zahra and Dou, Qi and Yan, Bryan P and Xing, Yanqiu and
+               Zhang, Yongfeng and Assimes, Themistocles L and Bitterman,
+               Danielle S and Ma, Xin and Lu, Lin and Fan, Lizhou",
   journal   = "Commun. Med. (Lond.)",
-  publisher = "Nature Publishing Group UK London",
-  year      =  2025
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  6,
+  number    =  1,
+  pages     =  27,
+  month     =  dec,
+  year      =  2025,
+  language  = "en"
 }
+
 ```
