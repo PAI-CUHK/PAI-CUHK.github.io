@@ -7,35 +7,6 @@ image:
   focal_point: 'top'
 ---
 
-<style>
-  /* 扩大电脑端页面最大宽度使布局更舒展 */
-  @media screen and (min-width: 992px) {
-    .article-container {
-      max-width: 1000px !important;
-    }
-    /* 缩小顶部主标题字号 */
-    h1, .article-title, .article-header h1 {
-      font-size: 2.1rem !important;
-      line-height: 1.3 !important;
-    }
-  }
-  @media screen and (min-width: 1200px) {
-    .article-container {
-      max-width: 1100px !important;
-    }
-  }
-
-  /* 全局适度缩小各级标题字号 */
-  .article-container h2, h2 {
-    font-size: 1.5rem !important;
-  }
-  .article-container h3, h3 {
-    font-size: 1.25rem !important;
-  }
-  .article-container h4, h4 {
-    font-size: 1.1rem !important;
-  }
-</style>
 
 🎉 We present AIPatient, a novel framework that enhances medical education and research through an advanced simulated patient system built upon Electronic Health Records (EHRs) and powered by Large Language Models (LLMs).
 

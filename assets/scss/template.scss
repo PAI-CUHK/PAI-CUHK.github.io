@@ -7,3 +7,61 @@
 .cta-group {
   justify-content: center;
 }
+
+// Optimize the stream item (collection) section layout globally
+.stream-item {
+  margin-bottom: 1.5rem !important; // 恢复呼吸感间距
+  padding-bottom: 1.5rem !important;
+  align-items: flex-start;
+
+  .article-title {
+    font-size: 0.95rem !important; 
+    line-height: 1.4 !important;
+    font-weight: 600;
+    margin-bottom: 0.4rem !important;
+    
+    a {
+      font-size: 0.95rem !important; // 强制覆盖 <a> 标签颜色和字号
+      line-height: 1.4 !important;
+      font-weight: 600 !important;
+    }
+  }
+
+  .article-style {
+    font-size: 0.82rem !important; 
+    line-height: 1.5 !important;
+    color: #666;
+    margin-bottom: 0.5rem !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines for cleaner look */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    p {
+      font-size: 0.82rem !important;
+      line-height: 1.5 !important;
+      margin: 0;
+    }
+  }
+
+  .article-metadata {
+    font-size: 0.72rem !important; 
+    margin-bottom: 0.4rem !important;
+    color: #888;
+  }
+
+  // Shrink the featured image if it exists
+  img {
+    width: 90px !important;  // reduced from 120px
+    height: auto !important;
+    border-radius: 4px; 
+    object-fit: cover;
+  }
+}
+
+// Ensure the collection block itself isn't too wide
+.section-collection {
+  max-width: 800px !important; 
+  margin: 0 auto !important;
+}
