@@ -1,6 +1,6 @@
 ---
 title: "🏆 Congratulations to Huizi on Winning Outstanding Award at GBA Forum 2025!"
-date: 2026-03-28
+date: 2025-11-01
 tags: ["Award", "Congratulations", "Academic Oral Presentation", "Graduate Research Forum", "Yu Huizi", "AIPatient"]
 share: false
 image:
