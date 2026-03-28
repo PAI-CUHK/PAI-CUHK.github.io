@@ -22,12 +22,6 @@ image:
   caption: "NICE 访谈海报：对话观壹智能谢伟迪"
   focal_point: Center
 
-links:
-  - icon: weixin
-    icon_pack: fab
-    name: 原活动主页
-    url: https://mp.weixin.qq.com/s/z76roi5W3Yry8QVIkZO_bg
-
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -76,6 +70,7 @@ projects: []
 
 ## 🔗 相关链接
 
+- [微信：原活动主页](https://mp.weixin.qq.com/s/z76roi5W3Yry8QVIkZO_bg)
 - [NICE 官方主页](https://nice-nlp.github.io)
 - [NICE 海外主页](https://nice-intl.github.io)
 - [B 站 NICE 频道](https://space.bilibili.com/507524288)
