@@ -44,7 +44,7 @@ projects: []
 **Registration:** Limited to 100 participants (application required)  
 **Registration Link:** [https://docs.qq.com/form/page/DU2hia2J1Z3ZGbmRC](https://docs.qq.com/form/page/DU2hia2J1Z3ZGbmRC)
 
-## About NICE
+## About NICE 
 
 **NICE** (NLP Academic Exchange Platform) is an open academic exchange platform initiated by young scholars worldwide, focusing on AI (especially NLP/LLM) research. Established on November 26, 2023, NICE has organized 100+ academic activities, invited nearly 300 speakers globally, and garnered over 130K followers across platforms.
 
