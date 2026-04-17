@@ -7,7 +7,7 @@ image:
   focal_point: 'top'
 ---
 
-🎉 **Big News!** Our core team member **Yu Huizi** has been honored with the **Outstanding Award in the Science and Engineering Academic Oral Presentation** at the **Greater Bay Area Graduate Research Forum 2025**!
+🎉 Our core team member **Yu Huizi** has been honored with the **Outstanding Award in the Science and Engineering Academic Oral Presentation** at the **Greater Bay Area Graduate Research Forum 2025**!
 
 This prestigious recognition not only celebrates Huizi's exceptional research communication skills but also reflects the growing impact of the AIPatient project. 🏅
 
@@ -55,11 +55,7 @@ To dive deeper into the AIPatient framework — including core methodology, tech
 
 ---
 
-## 💐 A Message from the Team
-
-From extracting high-quality patient data from MIMIC-III to orchestrating six specialized agents in a reasoning workflow — every achievement reflects Huizi's dedication and the collective effort of the entire team. Winning the Outstanding Award at the Greater Bay Area Graduate Research Forum 2025 is both a celebration of past work and a stepping stone toward even greater impact.
-
-Please join us in extending our warmest congratulations to **Huizi**! 🎊🎈
+Warm congratulations to **Huizi**! 🎊🎈
 
 ---
 
