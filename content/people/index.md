@@ -12,7 +12,9 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Principle Investigator
-          - Research Assistants
+          - Postdoctoral Fellow
+          - PhD Students
+          - Research Assistants & Interns
           - Affiliated Researchers
       sort_by: Params.last_name
       sort_ascending: true

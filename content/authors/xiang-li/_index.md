@@ -28,7 +28,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Affiliated Researchers
+  - Postdoctoral Fellow
 ---
 
 PhD Student @ SDU
