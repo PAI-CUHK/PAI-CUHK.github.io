@@ -31,4 +31,6 @@ user_groups:
   - PhD Students
 ---
 
-BEng @ HKUST
+BEng, 2025 @ HKUST
+
+Research Interests: Large language models, autonomous LLM agents, and embodied AI for intelligent healthcare systems.
