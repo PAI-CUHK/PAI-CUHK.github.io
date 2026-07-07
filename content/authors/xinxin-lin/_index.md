@@ -18,10 +18,10 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:'
+    link: 'mailto:xinxinlin@cuhk.edu.hk'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'xinxinlin@cuhk.edu.hk'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -31,6 +31,12 @@ user_groups:
   - PhD Students
 ---
 
-BEng, 2025 @ HKUST
+## EDUCATION
 
-Research Interests: Large language models, autonomous LLM agents, and embodied AI for intelligent healthcare systems.
+Hong Kong University of Science and Technology  
+BEng in Computer Engineering  
+2025
+
+## Research Interests
+
+**Large language models, autonomous LLM agents, and embodied AI for intelligent healthcare systems.**

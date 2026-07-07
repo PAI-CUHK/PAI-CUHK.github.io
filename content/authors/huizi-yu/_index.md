@@ -31,4 +31,7 @@ user_groups:
   - Affiliated Researchers
 ---
 
-PhD Student @ CUHK
+## EDUCATION
+
+The Chinese University of Hong Kong  
+PhD Student

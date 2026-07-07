@@ -17,6 +17,11 @@ user_groups:
   - Research Assistants & Interns
 ---
 
-Undergraduate Student in Psychology and Artificial Intelligence @ Beijing Normal University
+## EDUCATION
 
-Research Interests: Affective computing, computational psychiatry, AI-assisted prediction of mental disorders.
+Beijing Normal University  
+Undergraduate Student in Psychology and Artificial Intelligence
+
+## Research Interests
+
+**Affective computing, computational psychiatry, AI-assisted prediction of mental disorders.**

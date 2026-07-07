@@ -17,10 +17,10 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:'
+    link: 'mailto:joyceliang@cuhk.edu.hk'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'joyceliang@cuhk.edu.hk'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -29,3 +29,15 @@ highlight_name: false
 user_groups:
   - PhD Students
 ---
+
+## EDUCATION
+
+Guilin University of Electronic Technology  
+BEng
+
+ShanghaiTech University  
+MSc
+
+## Research Interests
+
+**Medical data, foundation models, and large language models.**

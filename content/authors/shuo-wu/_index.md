@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Wenkong Wang
+title: Shuo Wu
 
 # Full Name (for SEO)
-first_name: Wenkong
-last_name: Wang
+first_name: Shuo
+last_name: Wu
 
 # # Role/position
 # role: Affiliated Researcher
@@ -33,5 +33,10 @@ user_groups:
 
 ## EDUCATION
 
-Shandong University  
-PhD Student
+Shandong University, China  
+MEng in Control Engineering  
+Sep. 2025 - Present
+
+## Research Interests
+
+**Embodied intelligence and Vision-Language-Action (VLA) models for human-robot interaction with children with Autism Spectrum Disorder (ASD), with a focus on adaptive, multimodal robotic systems for personalized interaction and improved social communication and learning outcomes.**

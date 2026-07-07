@@ -23,10 +23,20 @@ user_groups:
   - Postdoctoral Fellow
 ---
 
-PhD in Electronic Information, 2022-2025 @ Fudan University
+## EDUCATION
 
-MS in Instrumentation Science and Technology, 2019-2022 @ Southeast University
+Fudan University  
+PhD in Electronic Information  
+2022 - 2025
 
-BS in Measurement and Control Technology and Instrumentation, 2015-2019 @ Yanshan University
+Southeast University  
+MS in Instrumentation Science and Technology  
+2019 - 2022
 
-Research Interests: General artificial intelligence, AI agents, wearable electronics, large language model applications, edge computing.
+Yanshan University  
+BS in Measurement and Control Technology and Instrumentation  
+2015 - 2019
+
+## Research Interests
+
+**General artificial intelligence, AI agents, wearable electronics, large language model applications, edge computing.**

@@ -31,4 +31,22 @@ user_groups:
   - Postdoctoral Fellow
 ---
 
-PhD Student @ SDU
+## EDUCATION
+
+Shandong University, School of Control Science and Engineering, China  
+Doctor of Engineering - DE, Electronic Information  
+Sep. 2021 - Expected Jun. 2026
+
+Shandong University, School of Integrated Circuits, China  
+Master of Engineering - ME, Electronic Information  
+Sep. 2018 - Jun. 2021
+
+Anhui Polytechnic University, China  
+Bachelor of Engineering - BE, Automation  
+Sep. 2013 - Jun. 2017
+
+## Research Interests
+
+**Video Behavior Analysis, Deep Learning, Medical AI, Health Informatics, AI Agents, LLM Reasoning**
+
+Medical Field: **Psychiatry, Autism Spectrum Disorder**

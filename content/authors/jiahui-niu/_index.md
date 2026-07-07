@@ -31,4 +31,7 @@ user_groups:
   - Affiliated Researchers
 ---
 
-PhD Student @ SDU
+## EDUCATION
+
+Shandong University  
+PhD Student

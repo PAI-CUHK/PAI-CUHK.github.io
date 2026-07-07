@@ -17,8 +17,14 @@ user_groups:
   - Research Assistants & Interns
 ---
 
-BEng @ Guangdong University of Technology (GDUT)
+## EDUCATION
 
-MSc @ Shenzhen University (SZU)
+Guangdong University of Technology (GDUT)  
+BEng
 
-Research Interests: Multi-modal learning, large language models, medical image analysis, AI for health.
+Shenzhen University (SZU)  
+MSc
+
+## Research Interests
+
+**Multi-modal learning, large language models, medical image analysis, AI for health.**

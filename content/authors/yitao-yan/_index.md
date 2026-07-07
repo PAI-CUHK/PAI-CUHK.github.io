@@ -17,6 +17,11 @@ user_groups:
   - Research Assistants & Interns
 ---
 
-B.Sc & M.Sc @ CUHK CS
+## EDUCATION
 
-Research Interests: LLM
+The Chinese University of Hong Kong, Department of Computer Science and Engineering  
+BSc and MSc
+
+## Research Interests
+
+**LLM**

@@ -17,6 +17,12 @@ user_groups:
   - Research Assistants & Interns
 ---
 
-Robotics Engineering, Sep. 2023 - Jun. 2027 @ Beijing Institute of Technology, Beijing, China
+## EDUCATION
 
-Research Interests: Embodied AI, robot manipulation, world model.
+Beijing Institute of Technology, Beijing, China  
+Robotics Engineering  
+Sep. 2023 - Jun. 2027
+
+## Research Interests
+
+**Embodied AI, robot manipulation, world model.**

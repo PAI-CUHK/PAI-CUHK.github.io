@@ -17,8 +17,16 @@ user_groups:
   - Research Assistants & Interns
 ---
 
-Master of Science in Health Data Science, 2026 @ Harvard University
+## EDUCATION
 
-BSc in Statistics, 2023 @ University of California, San Diego
+Harvard University  
+Master of Science in Health Data Science  
+2026
 
-Research Interests: Artificial intelligence and large language models, health data science and health informatics, digital health applications.
+University of California, San Diego  
+BSc in Statistics  
+2023
+
+## Research Interests
+
+**Artificial intelligence and large language models, health data science and health informatics, digital health applications.**

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Wenkong Wang
+title: Jun Zhao
 
 # Full Name (for SEO)
-first_name: Wenkong
-last_name: Wang
+first_name: Jun
+last_name: Zhao
 
 # # Role/position
 # role: Affiliated Researcher
@@ -34,4 +34,13 @@ user_groups:
 ## EDUCATION
 
 Shandong University  
-PhD Student
+MSc in Control Engineering  
+Sep. 2025 - Jul. 2028
+
+Qingdao University of Science and Technology  
+BEng in Automation  
+Sep. 2021 - Jun. 2025
+
+## Research Interests
+
+**Embodied AI and large language models (LLMs) for ASD intervention.**
