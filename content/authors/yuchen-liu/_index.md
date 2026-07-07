@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Liuchen Yu
+title: Yuchen Liu
 
 # Full Name (for SEO)
-first_name: Liuchen
-last_name: Yu
+first_name: Yuchen
+last_name: Liu
 
 # Role/position
 role: Intern
