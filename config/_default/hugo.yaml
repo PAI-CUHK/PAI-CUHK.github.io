@@ -53,6 +53,7 @@ taxonomies:
   tag: tags
   category: categories
   author: authors
+  publication_type: publication_types
 markup:
   _merge: deep
 related:

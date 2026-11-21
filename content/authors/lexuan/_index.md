@@ -39,4 +39,4 @@ Sep. 2020 - Jul. 2022
 
 ## Research Interests
 
-**My research explores the application of artificial intelligence to psychiatry, aiming to advance AI-assisted mental health care and research. Specifically, I develop and evaluate AI systems that support clinical decision-making, enhance psychiatric assessment, and improve the quality and accessibility of mental health services.**
+**Large language models, LLM agents, Natrual language processing.**

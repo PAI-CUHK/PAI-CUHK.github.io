@@ -4,12 +4,10 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: /tour/
-    weight: 10
   - name: People
     url: /people/
     weight: 12
+    
   - name: SpectraHomeHelper
     url: /spectrahomehelper/
     weight: 15
@@ -18,12 +16,14 @@ main:
     url: /bhi2026workshop/
     weight: 18
 
-  - name: News
-    url: /post/
+  - name: Publications
+    url: /publications/
     weight: 20
+
   - name: Events
     url: /event/
     weight: 40
+  
   - name: Contact
     url: /contact/
     weight: 60

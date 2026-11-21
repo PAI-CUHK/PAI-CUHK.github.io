@@ -1,0 +1,33 @@
+{{ $paper := .item }}
+{{ $paperURL := $paper.RelPermalink }}
+{{ with $paper.Params.doi }}
+  {{ $paperURL = printf "https://doi.org/%s" . }}
+{{ end }}
+
+<div class="pai-paper-entry">
+  <span class="pai-paper-number">{{ add .index 1 }}.</span>
+
+  <div>
+    <div class="pai-paper-title">
+      <a href="{{ $paperURL }}">{{ $paper.Title }}</a>
+    </div>
+
+    <div class="pai-paper-authors">
+      {{ delimit $paper.Params.authors ", " }}
+    </div>
+  
+      {{ with $paper.Params.publication }}
+    <div class="pai-paper-venue">
+      <em>{{ . }}</em>, {{ $paper.Date.Format "2006" }}.
+    </div>
+  {{ end }}
+
+    {{ with $paper.Params.links }}
+      <div class="pai-paper-links">
+        {{ range $index, $link := . }}
+          {{ if $index }} | {{ end }}<a href="{{ $link.url }}">{{ $link.name }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
