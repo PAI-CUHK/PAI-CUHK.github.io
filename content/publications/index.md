@@ -78,7 +78,7 @@ sections:
             grid-template-columns: 1.5rem minmax(0, 1fr);
             gap: 0.25rem;
             max-width: 1120px;
-            margin: 0 auto 1.25rem;
+            margin: 0 auto 0.5rem;
             color: #000;
             font-size: 0.8rem;
             line-height: 1.5;
