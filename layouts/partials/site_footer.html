@@ -9,3 +9,54 @@
     </div>
   </div>
 </footer>
+
+{{ if eq .Section "publications" }}
+<script>
+  (() => {
+    function initPublicationYears() {
+      const nav = document.querySelector('#pai-years .pai-years-list');
+      if (!nav) return;
+
+      const sections = ['pai-publications', 'pai-preprints'];
+      const entries = sections.flatMap((id) =>
+        Array.from(document.querySelectorAll(`#${id} .pai-paper-entry[data-year]`))
+      );
+      const years = [...new Set(entries.map((entry) => entry.dataset.year))]
+        .filter((year) => /^\d{4}$/.test(year))
+        .sort((a, b) => Number(b) - Number(a));
+
+      for (const year of years) {
+        const link = document.createElement('a');
+        link.href = `#pai-year-${year}`;
+        link.textContent = year;
+        nav.appendChild(link);
+      }
+
+      const anchoredYears = new Set();
+      for (const id of sections) {
+        let previousYear = '';
+        for (const entry of document.querySelectorAll(`#${id} .pai-paper-entry[data-year]`)) {
+          const year = entry.dataset.year;
+          if (!/^\d{4}$/.test(year) || year === previousYear) continue;
+
+          const heading = document.createElement('h3');
+          heading.className = 'pai-paper-year';
+          heading.textContent = year;
+          if (!anchoredYears.has(year)) {
+            heading.id = `pai-year-${year}`;
+            anchoredYears.add(year);
+          }
+          entry.before(heading);
+          previousYear = year;
+        }
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initPublicationYears, { once: true });
+    } else {
+      initPublicationYears();
+    }
+  })();
+</script>
+{{ end }}
