@@ -17,39 +17,48 @@
       const nav = document.querySelector('#pai-years .pai-years-list');
       if (!nav) return;
 
-      const sections = ['pai-publications', 'pai-preprints'];
-      const entries = sections.flatMap((id) =>
-        Array.from(document.querySelectorAll(`#${id} .pai-paper-entry[data-year]`))
-      );
+      const entries = Array.from(document.querySelectorAll('#pai-publications .pai-paper-entry[data-year]'));
       const years = [...new Set(entries.map((entry) => entry.dataset.year))]
         .filter((year) => /^\d{4}$/.test(year))
         .sort((a, b) => Number(b) - Number(a));
 
+      function selectedYear() {
+        const requested = window.location.hash.match(/^#pai-year-(\d{4})$/)?.[1];
+        return years.includes(requested) ? requested : years[0];
+      }
+
+      function showYear(year) {
+        let number = 0;
+        for (const entry of entries) {
+          entry.hidden = entry.dataset.year !== year;
+          if (!entry.hidden) {
+            entry.querySelector('.pai-paper-number').textContent = `${++number}.`;
+          }
+        }
+        for (const link of nav.querySelectorAll('a')) {
+          if (link.dataset.year === year) {
+            link.setAttribute('aria-current', 'true');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        }
+      }
+
       for (const year of years) {
         const link = document.createElement('a');
         link.href = `#pai-year-${year}`;
+        link.dataset.year = year;
         link.textContent = year;
+        link.addEventListener('click', (event) => {
+          event.preventDefault();
+          window.location.hash = `pai-year-${year}`;
+          showYear(year);
+        });
         nav.appendChild(link);
       }
 
-      const anchoredYears = new Set();
-      for (const id of sections) {
-        let previousYear = '';
-        for (const entry of document.querySelectorAll(`#${id} .pai-paper-entry[data-year]`)) {
-          const year = entry.dataset.year;
-          if (!/^\d{4}$/.test(year) || year === previousYear) continue;
-
-          const heading = document.createElement('h3');
-          heading.className = 'pai-paper-year';
-          heading.textContent = year;
-          if (!anchoredYears.has(year)) {
-            heading.id = `pai-year-${year}`;
-            anchoredYears.add(year);
-          }
-          entry.before(heading);
-          previousYear = year;
-        }
-      }
+      window.addEventListener('hashchange', () => showYear(selectedYear()));
+      if (years.length) showYear(selectedYear());
     }
 
     if (document.readyState === 'loading') {
