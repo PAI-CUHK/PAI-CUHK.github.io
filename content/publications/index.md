@@ -31,8 +31,8 @@ sections:
 
           #pai-years .pai-years-list a {
             color: #007eaf;
-            font-size: clamp(1.25rem, 2.5vw, 2rem);
-            font-weight: 300;
+            font-size: 1.1rem;
+            font-weight: 400;
             line-height: 1.35;
             text-decoration: none;
           }
@@ -42,13 +42,10 @@ sections:
             text-decoration: underline;
           }
 
-          :is(#pai-publications, #pai-preprints) .pai-paper-year {
-            max-width: 1120px;
-            margin: 2rem auto 1rem;
-            color: #000;
-            font-size: 1.4rem;
-            font-weight: 600;
-            scroll-margin-top: 6rem;
+          #pai-years .pai-years-list a[aria-current="true"] {
+            color: #00577b;
+            text-decoration: underline;
+            text-underline-offset: 0.25rem;
           }
 
           @media (max-width: 767px) {
@@ -75,7 +72,7 @@ sections:
       title: Publications
       text: |
         <style>
-          :is(#pai-publications, #pai-preprints) .pai-paper-entry {
+          #pai-publications .pai-paper-entry {
             display: grid;
             grid-template-columns: 1.5rem minmax(0, 1fr);
             gap: 0.25rem;
@@ -86,33 +83,29 @@ sections:
             line-height: 1.5;
           }
 
-          :is(#pai-publications, #pai-preprints) .pai-paper-number {
+          #pai-publications .pai-paper-number {
             text-align: right;
           }
 
-          :is(#pai-publications, #pai-preprints) .pai-paper-title a {
+          #pai-publications .pai-paper-title a {
             color: #000;
             font-weight: 700;
           }
 
-          :is(#pai-publications, #pai-preprints) .pai-paper-title a:hover {
+          #pai-publications .pai-paper-title a:hover {
             text-decoration: underline;
           }
 
-          :is(#pai-publications, #pai-preprints) .pai-paper-authors {
+          #pai-publications .pai-paper-authors {
             font-weight: 400;
           }
 
-          :is(#pai-publications, #pai-preprints) .pai-paper-links a {
+          #pai-publications .pai-paper-links a {
             color: #1769c2;
           }
-    
-          #pai-publications {
-            padding-bottom: 0px !important;
-          }
-          
-          #pai-preprints {
-            padding-top: 16px !important;
+
+          #pai-publications .pai-paper-entry[hidden] {
+            display: none !important;
           }
     
         </style>
@@ -120,25 +113,10 @@ sections:
       filters:
         folders:
           - papers
-        publication_type: '2'
     design:
       view: pai-paper
       columns: '1'
       background:
         color: '#ffffff'
 
-  - block: collection
-    id: pai-preprints
-    content:
-      title: Preprints
-      count: 0
-      filters:
-        folders:
-          - papers
-        publication_type: '3'
-    design:
-      view: pai-paper
-      columns: '1'
-      background:
-        color: '#ffffff'
 ---
