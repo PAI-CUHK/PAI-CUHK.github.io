@@ -4,7 +4,7 @@
   {{ $paperURL = printf "https://doi.org/%s" . }}
 {{ end }}
 
-<div class="pai-paper-entry">
+<div class="pai-paper-entry" data-year="{{ $paper.Date.Format "2006" }}">
   <span class="pai-paper-number">{{ add .index 1 }}.</span>
 
   <div>
