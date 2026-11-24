@@ -6,12 +6,13 @@ sections:
   - block: markdown
     id: pai-years
     content:
-      title: ''
+      title: Publications
       text: |
         <style>
           #pai-years .pai-years-inner {
             max-width: 1120px;
             margin: 0 auto;
+            padding-left: 1rem;
           }
 
           #pai-years .pai-years-title {
@@ -64,12 +65,12 @@ sections:
       background:
         color: '#ffffff'
       spacing:
-        padding: ['40px', '20px', '0px', '20px']
+        padding: ['40px', '0px', '0px', '0px']
 
   - block: collection
     id: pai-publications
     content:
-      title: Publications
+      title: ''
       text: |
         <style>
           #pai-publications .pai-paper-entry {
