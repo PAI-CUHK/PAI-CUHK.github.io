@@ -1,15 +1,11 @@
 {{ $paper := .item }}
-{{ $paperURL := $paper.RelPermalink }}
-{{ with $paper.Params.doi }}
-  {{ $paperURL = printf "https://doi.org/%s" . }}
-{{ end }}
 
 <div class="pai-paper-entry" data-year="{{ $paper.Date.Format "2006" }}">
   <span class="pai-paper-number">{{ add .index 1 }}.</span>
 
   <div>
     <div class="pai-paper-title">
-      <a href="{{ $paperURL }}">{{ $paper.Title }}</a>
+      {{ $paper.Title }}
     </div>
 
     <div class="pai-paper-authors">
