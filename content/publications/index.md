@@ -88,13 +88,9 @@ sections:
             text-align: right;
           }
 
-          #pai-publications .pai-paper-title a {
+          #pai-publications .pai-paper-title {
             color: #000;
             font-weight: 700;
-          }
-
-          #pai-publications .pai-paper-title a:hover {
-            text-decoration: underline;
           }
 
           #pai-publications .pai-paper-authors {
@@ -119,5 +115,7 @@ sections:
       columns: '1'
       background:
         color: '#ffffff'
+      spacing:
+        padding: ['10px', '0px', '40px', '0px']
 
 ---
