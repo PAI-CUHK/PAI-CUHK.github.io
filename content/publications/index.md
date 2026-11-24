@@ -116,6 +116,6 @@ sections:
       background:
         color: '#ffffff'
       spacing:
-        padding: ['10px', '0px', '40px', '0px']
+        padding: ['20px', '0px', '40px', '0px']
 
 ---
