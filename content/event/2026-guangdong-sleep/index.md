@@ -66,9 +66,3 @@ projects: []
 ![睡眠中心建设交流](image-04.jpg)
 
 ![会议现场记录](image-05.jpg)
-
-## 相关链接
-
-- [会议介绍与欢迎辞](https://mp.weixin.qq.com/s/bCsBP_ddqqxf4uFwj30AXg)
-- [《成人阻塞性睡眠呼吸暂停诊治指南（2025）》](https://www.yiigle.com/LinkIn.do?DOI=10.3760%2Fcma.j.cn112147-20251108-00694&linkin_type=DOI)
-- [《国民健康“十五五”规划》](https://www.ndrc.gov.cn/fggz/fzzlgh/gjjzxgh/202609/t20260928_1407866.html)
